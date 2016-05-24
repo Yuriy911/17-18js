@@ -1,0 +1,32 @@
+@import 'reset';
+@import 'variables';
+
+.wrapper{
+  background: $body-color;
+  font: $font-stack;
+  width: 400px;
+}
+
+.clear_fix:after{
+  content: "";
+  display:block;
+  clear:both;
+
+}
+
+h1{
+  color: $primary-color;
+}
+
+.menu{
+  display: block;
+
+  li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+  }
+  a {
+    color: $a-color;
+  }
+}
